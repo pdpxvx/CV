@@ -76,7 +76,7 @@
       <p>
         Estudiant d'últim curs d'<strong>Enginyeria Informàtica</strong> a la Universitat de Girona (UdG); em graduo el 2027.
         Actualment treballo en dos projectes: un projecte d'<strong>anàlisi quantitativa i trading algorítmic</strong> sobre futurs de criptomonedes, desenvolupat en Python, i una
-        <strong>integració entre un ERP i Salesforce</strong> que extreu, neteja i sincronitza de manera incremental les dades de negoci a través d'APIs.
+        <strong>integració entre un ERP i Salesforce</strong> que extreu, neteja i sincronitza de manera incremental les dades a través d'APIs.
       </p>
       <p>
         He treballat cada any mentre estudiava: en suport tècnic informàtic, reparant portàtils i ordinadors de sobretaula, i en comerç,
@@ -121,15 +121,24 @@
 
       <article class="item project">
         <div class="item-head">
-          <h3>Integració ERP – Salesforce <span class="badge">En curs</span></h3>
+          <h3>Integració de dades ERP → Salesforce <span class="badge neutral">Projecte personal</span><span class="badge">En curs</span></h3>
         </div>
-        <p>Integració que extreu les dades d'un ERP a través de la seva API, les neteja i n'elimina els duplicats, i les sincronitza de manera incremental amb Salesforce. Dins de Salesforce, unes automatitzacions reaccionen als canvis a mesura que arriben.</p>
+        <p>Projecte d'integració de sistemes de principi a fi, fet per practicar com circulen les dades entre un sistema de gestió i un CRM.</p>
+        <ul>
+          <li>ERP simulat creat des de zero: una API REST (FastAPI + SQLite) que serveix dades sintètiques amb errors introduïts a propòsit.</li>
+          <li>Procés en Python que extreu les dades per API, les neteja, n'elimina els duplicats i les sincronitza de manera incremental amb Salesforce.</li>
+          <li>Dins de Salesforce, automatitzacions amb Apex i Flows reaccionen als canvis que arriben.</li>
+          <li>Bateria de proves automatitzades amb pytest.</li>
+        </ul>
         <ul class="skill-tags">
+          <li class="skill-tag">Python</li>
+          <li class="skill-tag">FastAPI</li>
+          <li class="skill-tag">SQLite</li>
           <li class="skill-tag">APIs REST</li>
-          <li class="skill-tag">Salesforce</li>
-          <li class="skill-tag">Neteja de dades</li>
-          <li class="skill-tag">Eliminació de duplicats</li>
-          <li class="skill-tag">Sincronització incremental</li>
+          <li class="skill-tag">simple-salesforce</li>
+          <li class="skill-tag">Apex</li>
+          <li class="skill-tag">Salesforce Flows</li>
+          <li class="skill-tag">pytest</li>
         </ul>
       </article>
     </section>
@@ -228,8 +237,11 @@
           <ul class="skill-tags">
             <li class="skill-tag">Git</li>
             <li class="skill-tag">Linux</li>
-            <li class="skill-tag">MySQL</li>
             <li class="skill-tag">APIs REST</li>
+            <li class="skill-tag">FastAPI</li>
+            <li class="skill-tag">MySQL</li>
+            <li class="skill-tag">SQLite</li>
+            <li class="skill-tag">pytest</li>
             <li class="skill-tag">Postman</li>
           </ul>
         </div>
@@ -253,7 +265,7 @@
         <div class="skill-category learning">
           <h3>Aprenent ara</h3>
           <ul class="skill-tags">
-            <li class="skill-tag">Salesforce</li>
+            <li class="skill-tag">Salesforce (Apex, Flows)</li>
             <li class="skill-tag">n8n (automatització de fluxos)</li>
           </ul>
         </div>

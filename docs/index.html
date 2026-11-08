@@ -76,7 +76,7 @@
       <p>
         Final-year <strong>Computer Engineering</strong> student at the University of Girona (UdG), graduating in 2027.
         I am currently working on two projects: a <strong>quantitative analysis and algorithmic trading</strong> project on cryptocurrency futures, built in Python, and an
-        <strong>ERP–Salesforce integration</strong> that extracts, cleans and incrementally synchronizes business data through APIs.
+        <strong>ERP–Salesforce data integration</strong> that extracts, cleans and incrementally synchronizes data through APIs.
       </p>
       <p>
         I have worked every year alongside my studies: in IT technical support, repairing laptops and desktop PCs, and in retail,
@@ -121,15 +121,24 @@
 
       <article class="item project">
         <div class="item-head">
-          <h3>ERP – Salesforce Integration <span class="badge">In progress</span></h3>
+          <h3>ERP → Salesforce Data Integration <span class="badge neutral">Personal project</span><span class="badge">In progress</span></h3>
         </div>
-        <p>Integration that extracts data from an ERP through its API, cleans it and removes duplicates, then synchronizes it incrementally with Salesforce. Inside Salesforce, automations react to the changes as they arrive.</p>
+        <p>End-to-end systems integration project, built to practise how data flows between a business management system and a CRM.</p>
+        <ul>
+          <li>Simulated ERP built from scratch: a REST API (FastAPI + SQLite) serving synthetic data with deliberately injected errors.</li>
+          <li>Python pipeline that extracts the data through the API, cleans and deduplicates it, and synchronizes it incrementally with Salesforce.</li>
+          <li>Inside Salesforce, Apex and Flow automations react to the incoming changes.</li>
+          <li>Automated test suite with pytest.</li>
+        </ul>
         <ul class="skill-tags">
+          <li class="skill-tag">Python</li>
+          <li class="skill-tag">FastAPI</li>
+          <li class="skill-tag">SQLite</li>
           <li class="skill-tag">REST APIs</li>
-          <li class="skill-tag">Salesforce</li>
-          <li class="skill-tag">Data cleaning</li>
-          <li class="skill-tag">Deduplication</li>
-          <li class="skill-tag">Incremental sync</li>
+          <li class="skill-tag">simple-salesforce</li>
+          <li class="skill-tag">Apex</li>
+          <li class="skill-tag">Salesforce Flows</li>
+          <li class="skill-tag">pytest</li>
         </ul>
       </article>
     </section>
@@ -228,8 +237,11 @@
           <ul class="skill-tags">
             <li class="skill-tag">Git</li>
             <li class="skill-tag">Linux</li>
-            <li class="skill-tag">MySQL</li>
             <li class="skill-tag">REST APIs</li>
+            <li class="skill-tag">FastAPI</li>
+            <li class="skill-tag">MySQL</li>
+            <li class="skill-tag">SQLite</li>
+            <li class="skill-tag">pytest</li>
             <li class="skill-tag">Postman</li>
           </ul>
         </div>
@@ -253,7 +265,7 @@
         <div class="skill-category learning">
           <h3>Currently learning</h3>
           <ul class="skill-tags">
-            <li class="skill-tag">Salesforce</li>
+            <li class="skill-tag">Salesforce (Apex, Flows)</li>
             <li class="skill-tag">n8n (workflow automation)</li>
           </ul>
         </div>

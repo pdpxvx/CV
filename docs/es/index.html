@@ -76,7 +76,7 @@
       <p>
         Estudiante de último curso de <strong>Ingeniería Informática</strong> en la Universitat de Girona (UdG); me gradúo en 2027.
         Actualmente trabajo en dos proyectos: un proyecto de <strong>análisis cuantitativo y trading algorítmico</strong> sobre futuros de criptomonedas, desarrollado en Python, y una
-        <strong>integración entre un ERP y Salesforce</strong> que extrae, limpia y sincroniza de forma incremental los datos de negocio a través de APIs.
+        <strong>integración entre un ERP y Salesforce</strong> que extrae, limpia y sincroniza de forma incremental los datos a través de APIs.
       </p>
       <p>
         He trabajado cada año mientras estudiaba: en soporte técnico informático, reparando portátiles y ordenadores de sobremesa, y en comercio,
@@ -121,15 +121,24 @@
 
       <article class="item project">
         <div class="item-head">
-          <h3>Integración ERP – Salesforce <span class="badge">En curso</span></h3>
+          <h3>Integración de datos ERP → Salesforce <span class="badge neutral">Proyecto personal</span><span class="badge">En curso</span></h3>
         </div>
-        <p>Integración que extrae los datos de un ERP a través de su API, los limpia y elimina los duplicados, y los sincroniza de forma incremental con Salesforce. Dentro de Salesforce, unas automatizaciones reaccionan a los cambios a medida que llegan.</p>
+        <p>Proyecto de integración de sistemas de principio a fin, hecho para practicar cómo circulan los datos entre un sistema de gestión y un CRM.</p>
+        <ul>
+          <li>ERP simulado creado desde cero: una API REST (FastAPI + SQLite) que sirve datos sintéticos con errores introducidos a propósito.</li>
+          <li>Proceso en Python que extrae los datos por API, los limpia, elimina los duplicados y los sincroniza de forma incremental con Salesforce.</li>
+          <li>Dentro de Salesforce, automatizaciones con Apex y Flows reaccionan a los cambios que llegan.</li>
+          <li>Batería de pruebas automatizadas con pytest.</li>
+        </ul>
         <ul class="skill-tags">
+          <li class="skill-tag">Python</li>
+          <li class="skill-tag">FastAPI</li>
+          <li class="skill-tag">SQLite</li>
           <li class="skill-tag">APIs REST</li>
-          <li class="skill-tag">Salesforce</li>
-          <li class="skill-tag">Limpieza de datos</li>
-          <li class="skill-tag">Eliminación de duplicados</li>
-          <li class="skill-tag">Sincronización incremental</li>
+          <li class="skill-tag">simple-salesforce</li>
+          <li class="skill-tag">Apex</li>
+          <li class="skill-tag">Salesforce Flows</li>
+          <li class="skill-tag">pytest</li>
         </ul>
       </article>
     </section>
@@ -228,8 +237,11 @@
           <ul class="skill-tags">
             <li class="skill-tag">Git</li>
             <li class="skill-tag">Linux</li>
-            <li class="skill-tag">MySQL</li>
             <li class="skill-tag">APIs REST</li>
+            <li class="skill-tag">FastAPI</li>
+            <li class="skill-tag">MySQL</li>
+            <li class="skill-tag">SQLite</li>
+            <li class="skill-tag">pytest</li>
             <li class="skill-tag">Postman</li>
           </ul>
         </div>
@@ -253,7 +265,7 @@
         <div class="skill-category learning">
           <h3>Aprendiendo ahora</h3>
           <ul class="skill-tags">
-            <li class="skill-tag">Salesforce</li>
+            <li class="skill-tag">Salesforce (Apex, Flows)</li>
             <li class="skill-tag">n8n (automatización de flujos)</li>
           </ul>
         </div>
