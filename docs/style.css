@@ -368,6 +368,11 @@ h2::after {
 .skill-category.learning { background: #fff; border-style: dashed; border-color: #cbd5e1; }
 .skill-category.learning .skill-tag { background: #fff; color: var(--muted); border-color: #cbd5e1; border-style: dashed; }
 
+/* Second, neutral badge (e.g. "Personal project") */
+.badge.neutral { background: #f1f5f9; border-color: #cbd5e1; color: var(--muted); }
+.badge + .badge { margin-left: 6px; }
+.project ul:not(.skill-tags) { margin: 0 0 12px; }
+
 /* Work schedule note under the dates (e.g. summers / weekends) */
 .schedule { color: var(--subtle); flex-basis: 100%; }
 
@@ -598,7 +603,7 @@ h2::after {
 
 @media print {
   :root { --text: #000; --muted: #222; --subtle: #444; }
-  html, body { background: #fff; font-size: 10.5pt; line-height: 1.45; }
+  html, body { background: #fff; font-size: 10pt; line-height: 1.4; }
   .skip-link, .site-nav, .lang-switch, .site-footer, #contact { display: none !important; }
 
   .site-header {
@@ -624,7 +629,7 @@ h2::after {
   .milestone, .skill-category, .quick-facts li, .project { break-inside: avoid; }
   h2 { break-after: avoid; }
 
-  .quick-facts { grid-template-columns: repeat(2, 1fr) !important; gap: 6px; margin-top: 10px; }
+  .quick-facts { grid-template-columns: 1fr 1fr 1.7fr 1fr !important; gap: 6px; margin-top: 8px; font-size: 9pt; }
   .quick-facts li { padding: 6px 10px; }
   .skills-grid { grid-template-columns: repeat(3, 1fr) !important; gap: 10px; }
   .skill-category { padding: 8px 10px; }
@@ -632,12 +637,15 @@ h2::after {
   .skill-tags { gap: 4px; }
   .skill-tag, .project .skill-tag { padding: 1px 7px; font-size: 8pt; }
   .project p { font-size: 10pt; }
-  .item li { margin: 3px 0; }
+  .item li { margin: 2px 0; line-height: 1.4; }
   .timeline { gap: 10px; margin-left: 8px; }
   .project p { margin-bottom: 6px; }
   .card { margin-bottom: 10px; }
   .content { padding-top: 8px; }
-  .lang-list li { padding: 5px 0; }
+  .lang-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 16px; }
+  .lang-list li { padding: 4px 0; border-bottom: none; justify-content: flex-start; gap: 8px; }
+  .avatar { width: 60px; height: 60px; }
+  .card p { margin-bottom: 6px; }
 
   a { text-decoration: none; color: inherit; }
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
