@@ -41,7 +41,7 @@
         <img class="avatar" src="../assets/photo.jpg" alt="Foto de Pau Hurtós Garcia" width="72" height="72" />
         <div>
           <h1 class="name">Pau Hurtós Garcia</h1>
-          <p class="tagline"><span>Estudiante de Ingeniería Informática</span><span class="sep"> · </span><span>Desarrollador júnior</span></p>
+          <p class="tagline"><span>Estudiante de Ingeniería Informática</span><span class="sep"> · </span><span>Último curso · Universitat de Girona</span></p>
         </div>
       </div>
 
@@ -56,11 +56,10 @@
         <!-- ===== MENÚ DE NAVEGACIÓN ===== -->
         <nav class="site-nav" aria-label="Navegación principal">
           <ul>
-            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
             <li><a href="#experience">Experiencia</a></li>
             <li><a href="#education">Formación</a></li>
             <li><a href="#technical-skills">Conocimientos</a></li>
-            <li><a href="#languages">Idiomas</a></li>
             <li><a class="btn" href="#contact">Contacto</a></li>
           </ul>
         </nav>
@@ -75,14 +74,14 @@
     <section id="about" class="card">
       <h2>Sobre mí</h2>
       <p>
-        Soy estudiante de <strong>Ingeniería Informática</strong> en la Universitat de Girona (UdG), con pasión por el
-        desarrollo de software y la resolución de problemas. Mi experiencia práctica en soporte técnico, reparación de
-        hardware y comercio ha reforzado mi pensamiento analítico y mis habilidades de atención al cliente. Me siento
-        cómodo en entornos colaborativos y disfruto afrontando retos complejos manteniendo una comunicación clara con el equipo y con los clientes.
+        Estudiante de último curso de <strong>Ingeniería Informática</strong> en la Universitat de Girona (UdG); me gradúo en 2027.
+        Actualmente trabajo en dos proyectos: un <strong>sistema de trading automatizado con inteligencia artificial</strong> y una
+        <strong>integración entre un ERP y Salesforce</strong> que extrae, limpia y sincroniza de forma incremental los datos de negocio a través de APIs.
       </p>
       <p>
-        Actualmente me centro en ampliar mis conocimientos de programación en Java, Python y tecnologías web, y tengo ganas
-        de aplicar mis conocimientos técnicos y mi capacidad de resolución de problemas en un entorno de desarrollo profesional.
+        He trabajado cada año mientras estudiaba: en soporte técnico informático, reparando portátiles y ordenadores de sobremesa, y en comercio,
+        a jornada completa en verano y los fines de semana durante el curso. Esto me ha enseñado a tratar directamente con clientes,
+        a organizar mi tiempo y a ser constante bajo presión. Me interesan especialmente la integración de datos, la automatización y la IA aplicada.
       </p>
 
       <ul class="quick-facts">
@@ -93,6 +92,37 @@
       </ul>
     </section>
 
+    <!-- === PROYECTOS === -->
+    <section id="projects" class="card">
+      <h2>Proyectos</h2>
+
+      <article class="item project">
+        <div class="item-head">
+          <h3>Integración ERP – Salesforce <span class="badge">En curso</span></h3>
+        </div>
+        <p>Integración que extrae los datos de un ERP a través de su API, los limpia y elimina los duplicados, y los sincroniza de forma incremental con Salesforce. Dentro de Salesforce, unas automatizaciones reaccionan a los cambios a medida que llegan.</p>
+        <ul class="skill-tags">
+          <li class="skill-tag">APIs REST</li>
+          <li class="skill-tag">Salesforce</li>
+          <li class="skill-tag">Limpieza de datos</li>
+          <li class="skill-tag">Eliminación de duplicados</li>
+          <li class="skill-tag">Sincronización incremental</li>
+        </ul>
+      </article>
+
+      <article class="item project">
+        <div class="item-head">
+          <h3>Trading automatizado con IA <span class="badge">En curso</span></h3>
+        </div>
+        <p>Sistema de trading automatizado que utiliza inteligencia artificial para analizar datos de mercado y tomar decisiones de inversión sin intervención manual.</p>
+        <ul class="skill-tags">
+          <li class="skill-tag">Inteligencia artificial</li>
+          <li class="skill-tag">Automatización</li>
+          <li class="skill-tag">Datos de mercado</li>
+        </ul>
+      </article>
+    </section>
+
     <!-- === EXPERIENCIA === -->
     <section id="experience" class="card">
       <h2>Experiencia laboral</h2>
@@ -100,7 +130,7 @@
       <article class="item">
         <div class="item-head">
           <h3>Reponedor, sección de secos <span class="org">· Bon Preu, S.A.U.</span></h3>
-          <p class="meta"><span class="dates">jun. 2024 – sept. 2026</span><span class="place">Palafrugell</span></p>
+          <p class="meta"><span class="dates">jun. 2024 – sept. 2026</span><span class="place">Palafrugell</span><span class="schedule">Jornada completa en verano · fines de semana durante el curso</span></p>
         </div>
         <ul>
           <li>Reposición de productos y mantenimiento de los lineales ordenados y correctamente etiquetados en la sección de secos.</li>
@@ -141,7 +171,7 @@
       <h2>Formación</h2>
       <ol class="timeline">
         <li class="milestone">
-          <div class="when">sept. 2022 – actualidad</div>
+          <div class="when">sept. 2022 – 2027 (previsto) · último curso</div>
           <div class="what"><strong>Universitat de Girona (UdG)</strong> — Grado en Ingeniería Informática</div>
         </li>
         <li class="milestone">
@@ -175,7 +205,8 @@
             <li class="skill-tag">Git</li>
             <li class="skill-tag">Linux</li>
             <li class="skill-tag">MySQL</li>
-            <li class="skill-tag">VS Code</li>
+            <li class="skill-tag">APIs REST</li>
+            <li class="skill-tag">Salesforce</li>
           </ul>
         </div>
         <div class="skill-category">
@@ -183,26 +214,9 @@
           <ul class="skill-tags">
             <li class="skill-tag">Montaje de PC</li>
             <li class="skill-tag">Reparación de hardware</li>
-            <li class="skill-tag">Windows</li>
             <li class="skill-tag">Resolución de incidencias</li>
           </ul>
         </div>
-      </div>
-    </section>
-
-    <!-- === COMPETENCIAS PERSONALES === -->
-    <section id="skills" class="card">
-      <h2>Competencias personales</h2>
-      <div class="grid-2">
-        <ul class="checklist">
-          <li><strong>Comunicación:</strong> comunicación oral y escrita eficaz; escucha activa.</li>
-          <li><strong>Trabajo en equipo:</strong> colaboración y responsabilidad compartida.</li>
-          <li><strong>Resolución de problemas:</strong> pensamiento crítico y toma de decisiones.</li>
-        </ul>
-        <ul class="checklist">
-          <li><strong>Organización:</strong> gestión del tiempo y cumplimiento de plazos.</li>
-          <li><strong>Adaptabilidad:</strong> aprendizaje rápido y flexibilidad en entornos nuevos.</li>
-        </ul>
       </div>
     </section>
 
