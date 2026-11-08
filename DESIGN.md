@@ -46,7 +46,7 @@ The navigation structure is optimized for both quick scanning and detailed readi
 
 The CV's visual design is grounded in modern and minimalist design principles, using a carefully selected color palette that conveys professionalism and trust. The main palette is based on blue tones (#2563eb, #1d4ed8) as the brand color, which communicates technology and reliability, combined with a light neutral background (#f8fafc) that reduces visual fatigue and dark text (#1e293b) that ensures excellent readability.
 
-The typography uses a strategic combination of **Inter** for body text and interface elements, providing clarity and modernity, while **Merriweather** is reserved for the main name, adding a touch of elegance and differentiation. Font sizes are scaled hierarchically: 28px for the name, 24px for section titles, 18px for job titles, and 16px for body text, creating a clear visual hierarchy.
+The typography uses a single typeface, **Inter**, for everything: body text, interface elements and the name, which is set in an extra-bold weight with slightly tighter letter spacing. A single family keeps the page modern and consistent. Font sizes are scaled hierarchically: 28px for the name, 24px for section titles, 18px for job titles, and 16px for body text, creating a clear visual hierarchy.
 
 The design implements a **card system** with rounded corners (14px radius), thin neutral borders and soft shadows that create depth without being intrusive. Hover effects are deliberately subtle (a slightly stronger shadow, a colour change on buttons) so that nothing on the page moves or shifts while it is being read. Skill tags use a light blue background with dark blue text, and contact buttons fill with the brand colour on hover.
 
