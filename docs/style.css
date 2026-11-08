@@ -629,7 +629,10 @@ h2::after {
   .milestone, .skill-category, .quick-facts li, .project { break-inside: avoid; }
   h2 { break-after: avoid; }
 
-  .quick-facts { grid-template-columns: 1fr 1fr 1.7fr 1fr !important; gap: 6px; margin-top: 8px; font-size: 9pt; }
+  .quick-facts { grid-template-columns: 1.1fr 1.15fr 1.65fr 1fr !important; gap: 6px; margin-top: 8px; font-size: 8.5pt; }
+  .quick-facts a { white-space: nowrap; }
+  .quick-facts i { display: none; }
+  .quick-facts li { padding: 6px 8px; }
   .quick-facts li { padding: 6px 10px; }
   .skills-grid { grid-template-columns: repeat(3, 1fr) !important; gap: 10px; }
   .skill-category { padding: 8px 10px; }
