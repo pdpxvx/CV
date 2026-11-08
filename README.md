@@ -7,7 +7,7 @@
 My personal web CV: a single responsive page built with plain HTML and CSS and published with GitHub Pages.
 No frameworks, no build step.
 
-**🌐 Live:** https://pdpxvx.github.io/CV/
+**🌐 Live:** [English](https://pdpxvx.github.io/CV/) · [Català](https://pdpxvx.github.io/CV/ca/) · [Español](https://pdpxvx.github.io/CV/es/)
 
 ![Preview of the web CV](.github/preview.png)
 
@@ -15,6 +15,7 @@ No frameworks, no build step.
 
 ## Features
 
+- **Three languages** — English, Catalan and Spanish, with a language switcher in the header and `hreflang` links for search engines.
 - **Responsive** — works on mobile, tablet and desktop.
 - **Print-ready** — the *Save as PDF* button (or `Ctrl+P`) produces a clean two-page A4 CV.
 - **Accessible** — semantic HTML5, skip link, visible keyboard focus, WCAG AA colour contrast, and `prefers-reduced-motion` support.
@@ -26,8 +27,10 @@ No frameworks, no build step.
 ```
 .
 ├── docs/                 # Published by GitHub Pages
-│   ├── index.html        # CV content
-│   ├── style.css         # Styles (screen + print)
+│   ├── index.html        # CV in English (default)
+│   ├── ca/index.html     # CV in Catalan
+│   ├── es/index.html     # CV in Spanish
+│   ├── style.css         # Shared styles (screen + print)
 │   └── assets/
 │       └── photo.jpg     # Profile photo (square, 400×400)
 ├── .github/preview.png   # Screenshot used in this README
@@ -47,7 +50,7 @@ python3 -m http.server 8000
 
 ## Updating the CV
 
-1. Edit the content in `docs/index.html`. Each section is marked with an `=== SECTION ===` comment.
+1. Edit the content in `docs/index.html`, `docs/ca/index.html` and `docs/es/index.html` (keep the three versions in sync). Each section is marked with a comment.
 2. To change the photo, replace `docs/assets/photo.jpg` with a square image using the same file name.
 3. Commit and push to `main`. GitHub Pages redeploys automatically in 1–2 minutes.
 
