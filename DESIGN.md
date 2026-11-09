@@ -2,7 +2,22 @@
 
 Design analysis behind the web CV. See the [README](README.md) for an overview of the project.
 
-🎨 **Figma design:** [CV – Pau Hurtós Garcia](https://www.figma.com/design/PcGF9UbmOhA7uRje0PY9a1/CV---Pau-Hurt%C3%B3s-Garcia?node-id=0-1&t=6rTlBFjUgqRxiIZl-1)
+## Final design
+
+The page as it is published, on desktop (1280 px) and on mobile (390 px).
+
+### Desktop
+
+<img src=".github/design/desktop.png" alt="Desktop version of the web CV" width="640">
+
+### Mobile
+
+<img src=".github/design/mobile.png" alt="Mobile version of the web CV, first three screens" width="640">
+
+### Initial prototype
+
+The first version of the design was prototyped in Figma: [CV – Pau Hurtós Garcia (Figma)](https://www.figma.com/design/PcGF9UbmOhA7uRje0PY9a1/CV---Pau-Hurt%C3%B3s-Garcia?node-id=0-1&t=6rTlBFjUgqRxiIZl-1).
+The published page has evolved since then (projects section, language switcher, refined colours and layout), so the prototype no longer matches it exactly.
 
 ## User Persona
 

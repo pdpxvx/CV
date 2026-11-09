@@ -33,7 +33,7 @@ No frameworks, no build step.
 │   ├── style.css         # Shared styles (screen + print)
 │   └── assets/
 │       └── photo.jpg     # Profile photo (square, 400×400)
-├── .github/preview.png   # Screenshot used in this README
+├── .github/              # Screenshots used in the README and DESIGN.md
 ├── DESIGN.md             # Design analysis: user persona, information architecture, visual design
 └── README.md
 ```
@@ -56,9 +56,9 @@ python3 -m http.server 8000
 
 ## Design
 
-The design was prototyped in Figma before it was built:
-[view the Figma project](https://www.figma.com/design/PcGF9UbmOhA7uRje0PY9a1/CV---Pau-Hurt%C3%B3s-Garcia?node-id=0-1&t=6rTlBFjUgqRxiIZl-1).
-The reasoning behind the layout, colours and typography is documented in [DESIGN.md](DESIGN.md).
+Desktop and mobile screenshots of the final design, and the reasoning behind the layout, colours and typography,
+are in [DESIGN.md](DESIGN.md). The first prototype was made in
+[Figma](https://www.figma.com/design/PcGF9UbmOhA7uRje0PY9a1/CV---Pau-Hurt%C3%B3s-Garcia?node-id=0-1&t=6rTlBFjUgqRxiIZl-1).
 
 ## Contact
 
