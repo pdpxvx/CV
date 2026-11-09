@@ -56,7 +56,7 @@ python3 -m http.server 8000
 
 ## Design
 
-Desktop and mobile screenshots of the final design, and the reasoning behind the layout, colours and typography,
+Desktop and mobile screenshots of the design, and the reasoning behind the layout, colours and typography,
 are in [DESIGN.md](DESIGN.md).
 
 ## Contact

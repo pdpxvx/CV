@@ -2,9 +2,9 @@
 
 Design analysis behind the web CV. See the [README](README.md) for an overview of the project.
 
-## Final design
+## Screenshots
 
-The page as it is published, on desktop (1280 px) and on mobile (390 px).
+The published page on desktop (1280 px) and on mobile (390 px).
 
 ### Desktop
 
