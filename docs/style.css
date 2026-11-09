@@ -605,11 +605,19 @@ h2::after {
 /* ========================================
    Print / Save as PDF (A4)
 ======================================== */
-@page { size: A4; margin: 11mm 14mm 10mm; }
+/* Zero page margin leaves the browser no room for its own header/footer
+   (date, title, URL, page numbers); the margins are recreated on <body>
+   and repeated on every page with box-decoration-break. */
+@page { size: A4; margin: 0; }
 
 @media print {
   :root { --text: #000; --muted: #222; --subtle: #444; }
   html, body { background: #fff; font-size: 10pt; line-height: 1.4; }
+  body {
+    padding: 11mm 14mm 10mm;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
   .skip-link, .site-nav, .lang-switch, .site-footer, #contact { display: none !important; }
 
   .site-header {
@@ -650,6 +658,7 @@ h2::after {
   .project p { font-size: 10pt; }
   .item li { margin: 2px 0; line-height: 1.4; }
   .timeline { gap: 6px; margin-left: 8px; }
+  .milestone::before { width: 9px; height: 9px; border-width: 2px; left: -28px; top: 5px; }
   .project p { margin-bottom: 6px; }
   .card { margin-bottom: 10px; }
   .content { padding-top: 8px; }
