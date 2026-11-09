@@ -57,8 +57,7 @@ python3 -m http.server 8000
 ## Design
 
 Desktop and mobile screenshots of the final design, and the reasoning behind the layout, colours and typography,
-are in [DESIGN.md](DESIGN.md). The first prototype was made in
-[Figma](https://www.figma.com/design/PcGF9UbmOhA7uRje0PY9a1/CV---Pau-Hurt%C3%B3s-Garcia?node-id=0-1&t=6rTlBFjUgqRxiIZl-1).
+are in [DESIGN.md](DESIGN.md).
 
 ## Contact
 
